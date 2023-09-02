@@ -2,6 +2,8 @@
 
 [![crates.io](https://img.shields.io/crates/v/chrono-systemd-time-ng.svg)](https://crates.io/crates/chrono-systemd-time-ng)
 [![docs.rs](https://docs.rs/chrono-systemd-time-ng/badge.svg)](https://docs.rs/chrono-systemd-time-ng/)
+[![Build & Test](https://github.com/TD-Sky/chrono-systemd-time-ng/actions/workflows/test.yml/badge.svg)](https://github.com/TD-Sky/chrono-systemd-time-ng/actions/workflows/test.yml)
+[![lint](https://github.com/TD-Sky/chrono-systemd-time-ng/actions/workflows/lint.yml/badge.svg)](https://github.com/TD-Sky/chrono-systemd-time-ng/actions/workflows/lint.yml)
 
 This repository was forked from [chrono-systemd-time](https://github.com/Odoh/chrono-systemd-time)
 as the author hasn't updated it in quite a while.
