@@ -25,7 +25,7 @@ impl<Tz: TimeZone> TryFrom<LocalResult<DateTime<Tz>>> for LocalDateTime<Tz> {
 }
 
 impl<Tz: TimeZone> LocalDateTime<Tz> {
-    // Returns `Some` when the conversion time is unique, or `None` otherwise.
+    /// Returns `Some` when the conversion time is unique, or `None` otherwise.
     pub fn single(self) -> Option<DateTime<Tz>> {
         match self {
             Self::Single(dt) => Some(dt),
